@@ -112,7 +112,7 @@ function ScenarioBuilder() {
       case "lean":
         return "500";
       case "unknown":
-        return "500 border-2 bg-opacity-40";
+        return "500 border-2 bg-opacity-50";
       default:
         return "800";
     }
