@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "electoralVotes": 9,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Alaska",
+    "abbreviation": "AK",
+    "electoralVotes": 3,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "electoralVotes": 11,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "electoralVotes": 6,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "California",
+    "abbreviation": "CA",
+    "electoralVotes": 54,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "electoralVotes": 10,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Connecticut",
+    "abbreviation": "CT",
+    "electoralVotes": 7,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "electoralVotes": 3,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Florida",
+    "abbreviation": "FL",
+    "electoralVotes": 30,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "electoralVotes": 16,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "electoralVotes": 4,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "electoralVotes": 4,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "electoralVotes": 19,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "electoralVotes": 11,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "electoralVotes": 6,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "electoralVotes": 6,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Kentucky",
+    "abbreviation": "KY",
+    "electoralVotes": 8,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "electoralVotes": 8,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Maine",
+    "abbreviation": "ME",
+    "electoralVotes": 4,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "electoralVotes": 10,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "electoralVotes": 11,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "electoralVotes": 15,
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
+  },
+  {
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "electoralVotes": 10,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "electoralVotes": 6,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "electoralVotes": 10,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Montana",
+    "abbreviation": "MT",
+    "electoralVotes": 4,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "electoralVotes": 5,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "electoralVotes": 6,
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
+  },
+  {
+    "name": "New Hampshire",
+    "abbreviation": "NH",
+    "electoralVotes": 4,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "New Jersey",
+    "abbreviation": "NJ",
+    "electoralVotes": 14,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "electoralVotes": 5,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "New York",
+    "abbreviation": "NY",
+    "electoralVotes": 28,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "North Carolina",
+    "abbreviation": "NC",
+    "electoralVotes": 16,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "North Dakota",
+    "abbreviation": "ND",
+    "electoralVotes": 3,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "electoralVotes": 17,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "electoralVotes": 7,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Oregon",
+    "abbreviation": "OR",
+    "electoralVotes": 8,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "electoralVotes": 19,
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
+  },
+  {
+    "name": "Rhode Island",
+    "abbreviation": "RI",
+    "electoralVotes": 4,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "electoralVotes": 9,
+    "likelyOutcome": "Republican",
+    "likelihood": "lean"
+  },
+  {
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "electoralVotes": 3,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "electoralVotes": 11,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Texas",
+    "abbreviation": "TX",
+    "electoralVotes": 40,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Utah",
+    "abbreviation": "UT",
+    "electoralVotes": 6,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Vermont",
+    "abbreviation": "VT",
+    "electoralVotes": 3,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "electoralVotes": 13,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Washington",
+    "abbreviation": "WA",
+    "electoralVotes": 12,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "West Virginia",
+    "abbreviation": "WV",
+    "electoralVotes": 4,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "electoralVotes": 10,
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
+  },
+  {
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "electoralVotes": 3,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  }
+]
