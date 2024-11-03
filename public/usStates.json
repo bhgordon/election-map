@@ -17,8 +17,8 @@
     "name": "Arizona",
     "abbreviation": "AZ",
     "electoralVotes": 11,
-    "likelyOutcome": "Republican",
-    "likelihood": "lean"
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
   },
   {
     "name": "Arkansas",
@@ -66,8 +66,8 @@
     "name": "Georgia",
     "abbreviation": "GA",
     "electoralVotes": 16,
-    "likelyOutcome": "Republican",
-    "likelihood": "lean"
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
   },
   {
     "name": "Hawaii",
@@ -227,8 +227,8 @@
     "name": "North Carolina",
     "abbreviation": "NC",
     "electoralVotes": 16,
-    "likelyOutcome": "Democrat",
-    "likelihood": "lean"
+    "likelyOutcome": "Toss-Up",
+    "likelihood": "unknown"
   },
   {
     "name": "North Dakota",
