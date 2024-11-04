@@ -95,15 +95,15 @@ function ScenarioBuilder() {
     setTossUpVoteTotal(tossUpTotal);
   };
 
-  const democratStates = stateData.filter(
-    (state) => state.likelyOutcome === "Democrat"
-  );
-  const republicanStates = stateData.filter(
-    (state) => state.likelyOutcome === "Republican"
-  );
-  const tossUpStates = stateData.filter(
-    (state) => state.likelyOutcome === "Toss-Up"
-  );
+  // const democratStates = stateData.filter(
+  //   (state) => state.likelyOutcome === "Democrat"
+  // );
+  // const republicanStates = stateData.filter(
+  //   (state) => state.likelyOutcome === "Republican"
+  // );
+  // const tossUpStates = stateData.filter(
+  //   (state) => state.likelyOutcome === "Toss-Up"
+  // );
 
   const getColorClass = (likelihood: string) => {
     switch (likelihood) {
@@ -118,6 +118,35 @@ function ScenarioBuilder() {
     }
   };
 
+  const likelihoodOrder: Record<string, number> = {
+    unknown: 1,
+    lean: 2,
+    strong: 3,
+  };
+
+  // Function to sort states based on likelihood
+  const sortStatesByLikelihood = (states: StateData[]) => {
+    return states.sort((a, b) => {
+      return (
+        (likelihoodOrder[a.likelihood] || 0) -
+        (likelihoodOrder[b.likelihood] || 0)
+      );
+    });
+  };
+
+  // Filter sorted States
+  const democratStates = sortStatesByLikelihood(
+    stateData.filter((state) => state.likelyOutcome === "Democrat")
+  );
+
+  const republicanStates = sortStatesByLikelihood(
+    stateData.filter((state) => state.likelyOutcome === "Republican")
+  );
+
+  const tossUpStates = sortStatesByLikelihood(
+    stateData.filter((state) => state.likelyOutcome === "Toss-Up")
+  );
+
   console.log(tossUpStates);
 
   return (
@@ -130,7 +159,7 @@ function ScenarioBuilder() {
           <p className="px-4 py-3 bg-blue-800 rounded">
             Democrat Votes: {demVoteTotal}
           </p>
-          <p className="px-4 py-3 bg-zinc-500 rounded">
+          <p className="px-4 py-3 bg-zinc-500/50 rounded border-2">
             Toss-up Votes: {tossUpVoteTotal}
           </p>
           <p className="px-4 py-3 bg-red-800 rounded">
@@ -145,7 +174,7 @@ function ScenarioBuilder() {
             return (
               <button
                 onClick={() => handleOnClick(state)}
-                className={`flex flex-col items-center justify-center p-4 rounded bg-blue-${getColorClass(
+                className={`flex flex-col items-center justify-center font-light p-4 rounded bg-blue-${getColorClass(
                   state.likelihood
                 )}`}
                 key={index}
@@ -161,7 +190,7 @@ function ScenarioBuilder() {
             return (
               <button
                 onClick={() => handleOnClick(state)}
-                className={`p-4 flex flex-col items-center justify-center rounded bg-purple-${getColorClass(
+                className={`p-4 flex flex-col items-center justify-center rounded bg-zinc-${getColorClass(
                   state.likelihood
                 )}`}
                 key={index}

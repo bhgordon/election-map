@@ -56,6 +56,13 @@
     "likelihood": "strong"
   },
   {
+    "name": "District of Columbia",
+    "abbreviation": "DC",
+    "electoralVotes": 3,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
     "name": "Florida",
     "abbreviation": "FL",
     "electoralVotes": 30,
@@ -126,10 +133,24 @@
     "likelihood": "strong"
   },
   {
-    "name": "Maine",
+    "name": "Maine (Statewide)",
     "abbreviation": "ME",
-    "electoralVotes": 4,
+    "electoralVotes": 2,
     "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Maine (District 1)",
+    "abbreviation": "ME",
+    "electoralVotes": 1,
+    "likelyOutcome": "Democrat",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Maine (District 2)",
+    "abbreviation": "ME",
+    "electoralVotes": 1,
+    "likelyOutcome": "Republican",
     "likelihood": "lean"
   },
   {
@@ -182,9 +203,30 @@
     "likelihood": "strong"
   },
   {
-    "name": "Nebraska",
+    "name": "Nebraska (Statewide)",
     "abbreviation": "NE",
-    "electoralVotes": 5,
+    "electoralVotes": 2,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Nebraska (District 1)",
+    "abbreviation": "NE",
+    "electoralVotes": 1,
+    "likelyOutcome": "Republican",
+    "likelihood": "strong"
+  },
+  {
+    "name": "Nebraska (District 2)",
+    "abbreviation": "NE",
+    "electoralVotes": 1,
+    "likelyOutcome": "Democrat",
+    "likelihood": "lean"
+  },
+  {
+    "name": "Nebraska (District 3)",
+    "abbreviation": "NE",
+    "electoralVotes": 1,
     "likelyOutcome": "Republican",
     "likelihood": "strong"
   },
@@ -242,7 +284,7 @@
     "abbreviation": "OH",
     "electoralVotes": 17,
     "likelyOutcome": "Republican",
-    "likelihood": "lean"
+    "likelihood": "strong"
   },
   {
     "name": "Oklahoma",

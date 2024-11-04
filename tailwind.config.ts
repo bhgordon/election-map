@@ -13,9 +13,9 @@ const config: Config = {
     "bg-blue-400",
     "bg-blue-500",
     "bg-blue-800",
-    "bg-purple-400",
-    "bg-purple-500",
-    "bg-purple-800",
+    "bg-zinc-400",
+    "bg-zinc-500",
+    "bg-zinc-800",
   ],
   theme: {
     extend: {
